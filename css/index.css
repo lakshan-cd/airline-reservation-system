@@ -14,37 +14,34 @@
     padding-top: 4px;
     color:#2c3e50 ;
 }
-.cards{
+ .cards{ 
     display: flex;
     gap: 50px;
-    flex-direction: row;
+    /* flex-direction: column; */
     flex-direction: space-between;
 
-}
+} 
 .cardsContainer{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: center;
    margin-top: 10px;
-   margin-bottom: 10px;
+   margin-bottom: 10px; */
 
 }
 
 /* Add the following CSS rules */
 
-.footer {
-    /* position: fixed; */
+/* .footer {
     display: flex;
-    /* flex-direction: column; */
     margin-top: 500px;
-    /* bottom: 0; */
     width: 100%;
-    background-color: #f8f9fa; /* Adjust background color as needed */
-    padding: 20px 0; /* Adjust padding as needed */
+    background-color: #f8f9fa;
+    padding: 20px 0;
     color: #2c3e50;
-    text-align: center; /* Center align text */
+    text-align: center;
     justify-content: center;
-}
+} */
 
 
 body {
