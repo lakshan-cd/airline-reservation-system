@@ -46,27 +46,94 @@
     <div class="container">
         <h1>Book a Ticket</h1>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 mx-auto">
                 <h3>Available Flights</h3>
-                <ul class="list-group">
-                    <li class="list-group-item">Flight 1: New York to London on 2024-02-10 - $500</li>
-                    <li class="list-group-item">Flight 2: New York to Paris on 2024-02-10 - $600</li>
-                    <li class="list-group-item">Flight 3: London to Paris on 2024-02-11 - $400</li>
-                </ul>
+                <div class="card mb-3">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="https://c4.wallpaperflare.com/wallpaper/607/608/873/clouds-the-plane-flight-day-wallpaper-preview.jpg" class="card-img p-2" alt="Flight 1 Image">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body p-2">
+                              <h5 class="card-title">Flight 1: New York to London</h5>
+                              <p class="card-text">Date: 2024-02-10</p>
+                              <p class="card-text">Price: $500</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="card mb-3">
+                  <div class="row no-gutters">
+                      <div class="col-md-4">
+                          <img src="https://c4.wallpaperflare.com/wallpaper/784/294/516/clouds-a380-airbus-qatar-airways-wing-hd-wallpaper-preview.jpg" class="card-img p-2" alt="Flight 2 Image">
+                      </div>
+                      <div class="col-md-8">
+                          <div class="card-body p-2">
+                              <h5 class="card-title">Flight 2: New York to Paris</h5>
+                              <p class="card-text">Date: 2024-02-10</p>
+                              <p class="card-text">Price: $600</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+  
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/393/536/1/the-sky-clouds-flight-lights-wallpaper-preview.jpg" class="card-img p-2" alt="Flight Image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body p-2">
+                            <h5 class="card-title">Flight 3: London to Paris</h5>
+                            <p class="card-text">Date: 2024-02-11</p>
+                            <p class="card-text">Price: $400</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
             </div>
             <div class="col-md-6">
                 <h3>Booking Form</h3>
                 <!-- Form for booking -->
-                <form>
-                    <div class="form-group">
-                        <label for="flightNumber">Enter Flight Number:</label>
-                        <input type="text" class="form-control" id="flightNumber" placeholder="Enter flight number">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Book Ticket</button>
-                </form>
-            </div>
+                <form class="mt-4">
+                  <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                  </div>
+              
+                  <div class="form-group">
+                      <label for="address">Address:</label>
+                      <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                  </div>
+              
+                  <div class="form-group">
+                      <label for="nic">NIC:</label>
+                      <input type="text" class="form-control" id="nic" placeholder="Enter your NIC">
+                  </div>
+              
+                  <div class="form-group">
+                      <label for="flightSelect">Select Flight:</label>
+                      <select class="form-control" id="flightSelect">
+                          <option value="flight1">Flight 1: New York to London - $500</option>
+                          <option value="flight2">Flight 2: New York to Paris - $600</option>
+                          <option value="flight3">Flight 3: London to Paris - $400</option>
+                      </select>
+                  </div>
+              
+                  <button type="submit" class="btn btn-primary btn-block mt-3">Book Ticket</button>
+              </form>
+              
+            </div> 
         </div>
     </div>
+    <footer class="footer mt-auto py-1 bg-body-tertiary shadow-sm">
+      <div class="container">
+          <span class="text-muted">© 2024 Space Airline. All rights reserved.</span>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <!-- Bootstrap JS and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

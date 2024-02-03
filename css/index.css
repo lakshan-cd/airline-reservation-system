@@ -1,4 +1,4 @@
-#mainHeader{
+#mainHeader {
     padding-top: 20px;
     width: auto;
     height: 100px;
@@ -46,3 +46,13 @@
     justify-content: center;
 }
 
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
