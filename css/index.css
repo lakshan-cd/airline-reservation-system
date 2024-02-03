@@ -2,6 +2,47 @@
     padding-top: 20px;
     width: auto;
     height: 100px;
-    background-color: #4556ef;
-    color: #e9e9e9;
+    background-image: linear-gradient(to right, #4556ef, #0080ff); /* Adjust colors and direction as needed */
+    color: #ffffff;
 }
+
+.captionMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 4px;
+    color:#2c3e50 ;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    flex-direction: space-between;
+
+}
+.cardsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+/* Add the following CSS rules */
+
+.footer {
+    /* position: fixed; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 500px;
+    /* bottom: 0; */
+    width: 100%;
+    background-color: #f8f9fa; /* Adjust background color as needed */
+    padding: 20px 0; /* Adjust padding as needed */
+    color: #2c3e50;
+    text-align: center; /* Center align text */
+    justify-content: center;
+}
+
